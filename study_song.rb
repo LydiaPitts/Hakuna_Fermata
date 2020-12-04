@@ -18,12 +18,11 @@
 # two files and played one right after another, or played using the filepath
 # by calling run_file "/path/to/buffer.rb"
 
-# Start Intro of Song
+# Start/Intro of Song
 
 in_thread do
   use_synth :dark_ambience
   4.times do
-    #tempo = 30
     play_pattern chord((ring :g, :g, :c, :d).tick, :maj9), attack: 1, release: 4
     sleep 2
   end
