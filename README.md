@@ -30,7 +30,3 @@ Recording from running study_song.rb.
 
 ## How To Run The Code
 Download and Open Sonic Pi onto your computer. Download information can be found at this link: https://sonic-pi.net/. Open study_song.rb in a buffer on the GUI. Press play in the top left corner. If the maximum number of characters in the buffer is exceeded, do one of three things. 1) Type the command run_file "/file/path/study_song.rb" into the buffer with the appropriate file path that study_song.rb was saved to. 2) In the terminal navigate to where yoy saved the project file and run ruby study_song.rb. 3) Cut and paste from "Start of Bridge 3 -- the ending" to the end and paste it in another buffer. Press play on the first buffer, wait until the last note of that buffer is played, and hit start on the second buffer.
-
-## Discussion
-
-
